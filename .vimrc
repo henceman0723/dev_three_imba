@@ -433,7 +433,7 @@ let g:gitgutter_sign_modified_removed = emoji#for('collision')
 set completefunc=emoji#complete
 
 "nerdtree
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
     \ "Untracked" : "✭",

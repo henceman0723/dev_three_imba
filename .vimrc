@@ -103,10 +103,10 @@ syntax enable
 syntax on
 
 " vimrc文件修改之后自动加载
-autocmd! bufwritepost .vimrc source %
+" autocmd! bufwritepost .vimrc source %
 
 " 文件修改之后自动载入
-set autoread
+" set autoread
 
 " yy直接复制到系统剪切板（For macvim）
 "set clipboard=unnamed
@@ -176,10 +176,10 @@ set autoindent
 set smartindent
 
 " 保存文件时自动删除行尾空格或Tab
-autocmd BufWritePre * :%s/\s\+$//e
+" autocmd BufWritePre * :%s/\s\+$//e
 
 " 保存文件时自动删除末尾空行
-autocmd BufWritePre * :%s/^$\n\+\%$//ge
+" autocmd BufWritePre * :%s/^$\n\+\%$//ge
 
 " 填充Tab
 set expandtab
@@ -394,7 +394,7 @@ let g:clojure_syntax_keywords = {
     \ }
 
 " vim-clojure-highlight
-autocmd BufRead *.clj try | silent! Require | catch /^Fireplace/ | endtry
+" autocmd BufRead *.clj try | silent! Require | catch /^Fireplace/ | endtry
 
 " vCoolor.vim
 let g:vcoolor_map = '<leader>cp'
@@ -403,7 +403,7 @@ let g:vcool_ins_hsl_map = '<leader>cph'       " Insert hsl color.
 let g:vcool_ins_rgba_map = '<leader>cpra'      " Insert rgba color.
 
 " ycm
-let g:ycm_global_ycm_extra_conf = "/data03/home/lizisen/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf = "$HOME/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 nnoremap <leader>gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>gr :YcmCompleter GoToDefinition<CR>
 

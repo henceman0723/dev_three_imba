@@ -451,12 +451,12 @@ let g:nerdtree_tabs_open_on_console_startup=1
 let NERDTreeShowBookmarks=1
 
 " 启动时自动focus tagbar
-let g:tarbar_autofocus=1
-autocmd BufReadPost *.py,*.go,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
+" let g:tarbar_autofocus=1
+" autocmd BufReadPost *.py,*.go,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
 
 " minibufferexplore
-let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplMapCTabSwitchBufs = 1
+" let g:miniBufExplMapWindowNavVim = 1
+" let g:miniBufExplMapCTabSwitchBufs = 1
 
 " powerline
 set laststatus=2

@@ -4,6 +4,7 @@ let mapleader=","
 " 不兼容vi
 set nocompatible
 
+set number
 " dos2unix
 " set ff=unix
 
